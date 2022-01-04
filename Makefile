@@ -30,3 +30,4 @@ $(NAME): $(CLASSES:.java=.class)
 clean:
 	$(RM) *.class
 	$(RM) core/*.class
+	$(RM) term/*.class
